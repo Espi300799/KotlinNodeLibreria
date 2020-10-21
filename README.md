@@ -16,18 +16,18 @@ To install this project you need:
 Open a command line console and clone this project.
 
 ```
-git clone https://github.com/tcrurav/KotlinNode
+git clone https://github.com/Espi300799/KotlinNodeLibreria
 ```
 
-Go to the new created directory. After that go to the backend directory and install all dependencies:
+Go to the new directory. After that go to the backend directory and install all dependencies:
 
 ```
-cd KotlinNode
+cd KotlinNodeFullCRUD
 cd backend
 npm install
 ```
 
-After that start your MySQL Server and import the database db_bicycles.sql included in the /backend directory of this project.
+After installing all dependecies start your MySQL Server and import the database db_libreria included in the /backend directory of this project.
 
 Start the backend project
 
@@ -35,17 +35,11 @@ Start the backend project
 node server.js
 ```
 
-And finally start the frontend Android App with Android Studio.
+Finally you can start your frontend project by running it on Android Studio
 
 ## Built With
 
 * [Android Studio](https://developer.android.com/studio?hl=es) - Android Studio IDE.
-* [Git](https://git-scm.com) - You can install it from https://git-scm.com/downloads.
-* [MySQL](https://www.mysql.com) - You can install it from https://www.mysql.com/downloads/.
-* [Node.js](https://nodejs.org) - Install node.js from https://nodejs.org/es/download/. It's advisable to install the LTS version.
-
-## Acknowledgments
-
-* https://developer.android.com/training/volley/requestqueue?hl=es - How to configure a Singleton.
-* https://developer.android.com/training/volley?hl=es - How to send data with Volley from Kotlin App.
-* https://www.varvet.com/blog/kotlin-with-volley/ - Kotlin with Volley
+* [Git](https://git-scm.com) - Can install it from https://git-scm.com/downloads.
+* [MySQL](https://www.mysql.com) - Can install it from https://www.mysql.com/downloads/.
+* [Node.js](https://nodejs.org) - Install node.js from https://nodejs.org/es/download/. It's appealing to install the LTS version.
