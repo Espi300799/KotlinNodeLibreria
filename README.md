@@ -1,10 +1,5 @@
 # Android Kotlin RecyclerView App consuming RESTFul Node API
-
-It's just that...
-
-![alt text](https://github.com/tcrurav/KotlinNodeFullCRUD/blob/master/Readme-2.png)
-
-### Prerequisites
+## Prerequisites
 
 To install this project you need:
 * A working node environment.
