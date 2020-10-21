@@ -37,4 +37,8 @@ Finally you can start your frontend project by running it on Android Studio
 * [Android Studio](https://developer.android.com/studio?hl=es) - Android Studio IDE.
 * [Git](https://git-scm.com) - Can install it from https://git-scm.com/downloads.
 * [MySQL](https://www.mysql.com) - Can install it from https://www.mysql.com/downloads/.
+<<<<<<< HEAD
 * [Node.js](https://nodejs.org) - Install node.js from https://nodejs.org/es/download/. It's appealing to install the LTS version.
+=======
+* [Node.js](https://nodejs.org) - Install node.js from https://nodejs.org/es/download/. It's appealing to install the LTS version.
+>>>>>>> develop
