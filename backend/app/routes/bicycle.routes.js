@@ -1,25 +1,25 @@
 module.exports = app => {
-    const bicycles = require("../controllers/bicycle.controller.js");
+    const books = require("../controllers/book.controller.js");
   
     var router = require("express").Router();
   
     // Create a new Bicycle
-    router.post("/", bicycles.create);
+    router.post("/", books.create);
   
     // Retrieve all Bicycles
-    router.get("/", bicycles.findAll);
+    router.get("/", books.findAll);
   
     // Retrieve a single bicycle with id
-    router.get("/:id", bicycles.findOne);
+    router.get("/:id", books.findOne);
   
     // Update a bicycle with id
-    router.put("/:id", bicycles.update);
+    router.put("/:id", books.update);
   
     // Delete a bicycle with id
-    router.delete("/:id", bicycles.delete);
+    router.delete("/:id", books.delete);
   
     // Delete all bicycles
-    router.delete("/", bicycles.deleteAll);
+    router.delete("/", books.deleteAll);
   
-    app.use('/api/bicycles', router);
+    app.use('/api/libreria', router);
   };
