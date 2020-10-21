@@ -7,6 +7,6 @@ module.exports = (sequelize, Sequelize) => {
         type: Sequelize.STRING
       }
     }, { timestamps: false});
-  
+    //Estoy to enmonado quiero mi yerba
     return Bicycle;
   };
