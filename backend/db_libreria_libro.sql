@@ -1,10 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `db_bicycles` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
-USE `db_bicycles`;
--- MySQL dump 10.13  Distrib 8.0.19, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.21, for Win64 (x86_64)
 --
--- Host: localhost    Database: db_bicycles
+-- Host: localhost    Database: db_libreria
 -- ------------------------------------------------------
--- Server version	8.0.12
+-- Server version	8.0.21
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -18,28 +16,29 @@ USE `db_bicycles`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `bicycles`
+-- Table structure for table `libro`
 --
 
-DROP TABLE IF EXISTS `bicycles`;
+DROP TABLE IF EXISTS `libro`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `bicycles` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `brand` varchar(255) DEFAULT NULL,
-  `model` varchar(255) DEFAULT NULL,
+CREATE TABLE `libro` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) NOT NULL,
+  `autor` varchar(45) DEFAULT NULL,
+  `sinopsis` varchar(90) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `bicycles`
+-- Dumping data for table `libro`
 --
 
-LOCK TABLES `bicycles` WRITE;
-/*!40000 ALTER TABLE `bicycles` DISABLE KEYS */;
-INSERT INTO `bicycles` VALUES (1,'Orbea','plus'),(2,'BH','star');
-/*!40000 ALTER TABLE `bicycles` ENABLE KEYS */;
+LOCK TABLES `libro` WRITE;
+/*!40000 ALTER TABLE `libro` DISABLE KEYS */;
+INSERT INTO `libro` VALUES (3,'La casa de Bernarda Alba','Federico Garcia Lorca','ras la muerte de su esposo, Bernarda Alba se recluye e impone un luto por ocho años...'),(4,'Patria','Fernando Aramburu','Una novela conmovedora, sobre los últimos treinta años en Euskadi...');
+/*!40000 ALTER TABLE `libro` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -51,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-10-18 23:02:14
+-- Dump completed on 2020-10-23 10:26:31
